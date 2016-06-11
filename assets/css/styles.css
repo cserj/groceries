@@ -1,0 +1,133 @@
+/*
+STYLES.CSS
+
+Course:  Bootstrap 4 Quick Start
+Author:  Brad Hussey
+Website: bradhussey.ca
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    position: fixed;
+    display: none;
+    width: 100%;
+    /*height: 60px;*/
+    z-index: 10000;
+}
+
+/*video*/
+.header-container{
+    margin-top: -80px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 600px;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    padding: 20px;
+}
+.video-container{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+video{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.60;
+    width: 100%;
+}
+
+
+#features{
+   margin-top: 50px;
+}
+#features h3{
+    color: white;
+}
+/* cover */
+
+#cover {
+    background: #222 url('../img/stage.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background-color: rgba(92, 184, 92, 0.63);;
+    background-size: cover;
+}
+
+#about .section-content .container .col-md-6{
+    color: white;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#contact{
+    margin-top: -120px;
+    margin-bottom: -10px;
+}
+
+#contact .container{
+    margin-bottom: -40px;
+}
+
+.scrolloff {
+        pointer-events: none;
+    }
+
+.modal-body .form-control {
+    margin-bottom: 15px;
+
+}
+#myModal{
+    margin-top: 50px;
+}
+.modal-footer{
+    border: 0;
+}
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+#footer-main a{
+    color: #5cb85c;
+}
+#footer-main a:hover{
+    color: white;
+}
+
+.footer-brand{
+    border-left: 1px white solid;
+}
