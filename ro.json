@@ -1,0 +1,12 @@
+{
+	"token": {
+		"About":"Despre",
+	  	"http://www.ioling.org/images/flags/uk.gif": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/1280px-Flag_of_Thailand.svg.png",
+		"lorem" : "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+	},
+	"regex": [
+		["Budget", "งบประมาณ"],
+		["^Something at start of text", ""],
+		["This will be case insensitive", "i", ""]
+	]
+}
